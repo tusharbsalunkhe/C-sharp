@@ -1,0 +1,244 @@
+1.	Write a program to print “Teach One, Each One, Tree One” given number of times.
+        =>
+                 // Tushar bhagwan salunkhe.
+Using System;
+
+Namespace HelloWorld
+{
+  Class Program
+  {
+    Static void Main(string[] args)
+    {
+      Console.WriteLine(“Enter The Word “);    
+      String name=Console.ReadLine();
+      Console.WriteLine(“How Many Times”);
+      Int n=Convert.ToInt32(Console.ReadLine());
+      For(int i=1;i<=n;i++)
+      {
+         Console.WriteLine(“\n”+name);
+      }     
+    }
+  }
+}
+
+Output:- 
+
+Enter The Word 
+Teach one, each one, Tree one
+How Many Times 
+4
+
+Teach one, each one, Tree one
+
+Teach one, each one, Tree one
+
+Teach one, each one, Tree one
+
+Teach one, each one, Tree one
+
+
+
+
+
+
+
+
+
+       2. Write a program to show use of different operators. 
+        =>
+              //Tushar bhagwan salunkhe
+Using System;
+
+Namespace HelloWorld
+{
+  Class Program
+  {
+    Static void Main(string[] args)
+    {
+      Console.WriteLine(“Enter 1st no”);   
+      Int n1=int.Parse(Console.ReadLine());
+      Console.WriteLine(“Enter 2nd no”);
+      Int n2=int.Parse(Console.ReadLine());
+      
+      Int sum=n1+n2;
+       
+      Console.WriteLine(“The Arithmetic operator The Sum is :- “+sum);
+    
+    // Comparison Operator
+    
+     Console.WriteLine(“n1 == n2 “+(n1==n2));
+     Console.WriteLine(“n1 != n2 “+(n1!=n2));
+     
+     // Assignment Operator
+     
+     Console.WriteLine(“n1 /= n2 “+(n1+=n2));
+     
+     // Logical operator
+     
+     Console.WriteLine(“n1 != n2 && n1 == 2 “+(n1 != n2 && n1 == 2));
+      Console.ReadLine();
+    }
+  }
+}
+
+Output:- 
+
+Enter 1st no
+3
+Enter 2nd no
+5
+The Arithmetic operator The Sum is :- 8
+N1 == n2 False
+N1 != n2 True
+N1 /= n2 8
+N1 != n2 && n1 == 2 False
+
+
+      3. Write a program to show use of Looping Constructs.
+        =>
+       1. For loop 
+        :-> 
+ //Tushar bhagwan salunkhe
+ using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Enter The Number"); 
+      int n=int.Parse(Console.ReadLine());
+      
+      Console.WriteLine("The Given Number of Table");
+      for (int i=1;i<=10;i++)   
+      {
+        Console.WriteLine(" "+(n*i));
+      }
+      Console.ReadLine();
+    }
+  }
+}
+
+Output:- 
+
+Enter The Number
+3
+The Given Number of Table
+ 3
+ 6
+ 9
+ 12
+ 15
+ 18
+ 21
+ 24
+ 27
+ 30
+
+
+
+
+
+
+
+
+
+2.	While loop
+:-> 
+ //Tushar bhagwan salunkhe
+ Using System;
+
+Namespace HelloWorld
+{
+  Class Program
+  {
+    Static void Main(string[] args)
+    {
+      Int i=1;
+     Int fact =1;
+      
+      Console.WriteLine(“Enter The Number”);  
+      Int n= int.Parse(Console.ReadLine());
+      Console.WriteLine(“The Factorial of Given Number”);
+      While(i<=n)  
+      {
+        Fact=fact*i;
+        
+          I++;
+      }
+      Console.WriteLine(“ “+fact);
+      Console.ReadLine();
+    }
+  }
+}
+
+Output:- 
+
+Enter The Number
+5
+The Factorial of Given Number
+ 120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.	Do-While loop
+:->
+ //Tushar bhagwan salunkhe
+ using System;
+
+namespace CSharp_Shell
+{
+
+	class Program
+	{
+		public static void Main()
+		{
+			int i = 1; int n;
+			Console.WriteLine("Enter The Number:- ");
+			n = int.Parse(Console.ReadLine());
+
+			Console.WriteLine("The Table of Given Number is: ");
+			do
+			{
+				Console.WriteLine(" " + (n * i));
+				i++;
+			}
+			while (i <= 10);
+			Console.ReadLine();
+		}
+	}
+}
+
+       Output:- 
+  Enter The Number
+
+3
+
+The Given Number of Table
+
+ 3
+ 6
+ 9
+ 12
+ 15
+ 18
+ 21
+ 24
+ 27
+ 30
