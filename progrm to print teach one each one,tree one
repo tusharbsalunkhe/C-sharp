@@ -1,0 +1,26 @@
+//Assignment no-2
+//Program to print "Teach one,Each one,Tree one"
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication6
+{
+classProgram
+    {
+staticvoid Main(string[] args)
+        {
+int i;
+int n;
+Console.WriteLine("Enter a Number:- ");
+            n = Convert.ToInt32(Console.ReadLine());
+for (i = 1; i <= n; i++)
+            {
+Console.WriteLine("Teach One,EachOne,Tree One");
+            }
+Console.ReadLine();
+
+        }
+    }
+}
